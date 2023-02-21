@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Start Header Section  */
+.header{
+    background-color: #f9f9f9;
+    /* position: fixed;
+    width: 100%; */
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+.header .navbar .navbar__logo a img{
+    width: 100%;
+}
+.header .navbar .navbar__menu .menu__list .list__item{
+    display: inline-block; 
+    padding: 0 4px;
+}
+.header .navbar .navbar__menu .menu__list .list__item1{
+    display: inline-block; 
+    padding: 0 10px;
+}
+.header .navbar .navbar__menu .menu__list .list__item a{
+    display: inline-block; 
+    padding: 30px 10px;
+    font-family: arial;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header .navbar .navbar__menu .menu__list .list__item1 a{
+    display: inline-block; 
+    padding: 8px 22px;
+    border: 2px solid black;
+    font-family: arial;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header .navbar .navbar__menu .menu__list .list__item1 a:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+/* End Header Section  */
+/* Start Banner Section  */
+.banner{
+    background-image: url(../images/b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100%; */
+    height: 100vh;
+    position: relative;
+}
+.banner .banner__content{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+.banner .banner__content .heading__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+.banner .banner__content .heading__title span{
+
+}
+.banner .banner__content .heading__sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+.banner .banner__content .heading__list .list__item{
+   display: inline-block;
+    padding: 10px 20px 0 0;
+}
+.banner .banner__content .heading__list .list__item a{
+   font-size: 20px;
+}
+/* End Banner Section  */
+
+/* Start About Section  */
+.about{
+    padding: 100px 0;
+}
+.about .about__content{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.about .about__content .about__img{
+    width: 100%;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px; */
+}
+.about .about__content .about__img img{
+    width: 100%;
+
+}
+.about .about__content .about__heading{
+    width: 100%;
+}
+.about .about__content .about__heading .heading__sub-title{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(197, 197, 197);
+    padding: 8px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.about .about__content .about__heading .heading__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    padding: 25px 0;
+}
+.about .about__content .about__heading .heading__description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.about .about__content .about__heading .heading__button{
+    font-family: sans-serif;
+    /* font-weight: 400; */
+    /* line-height: 30px; */
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: rgb(14, 13, 13);
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.about .about__content .about__heading .heading__button:hover{
+    background-color: white;
+    color: black;
+    outline: 0;
+    transition-duration: 1s;
+}
+/* End About Section  */
+
+/* Start Portfolio Section  */
+.portfolio{
+    padding: 80px 0;
+    background-color: rgba(238, 236, 236, 0.486);
+}
+.portfolio .portfolio__content .content__heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio .portfolio__content .content__heading .heading__description .heading__sub-title{
+    background-color: rgb(184, 181, 181);
+    padding: 8px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.portfolio .portfolio__content .content__heading .heading__description .heading__title{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0 40px;
+}
+.portfolio .portfolio__content .content__heading .content__menu .menu__list li{
+    display: inline-block;
+    padding:  0 10px ;
+}
+.portfolio .portfolio__content .content__heading .content__menu .menu__list li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.portfolio .portfolio__content .portfolio__img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+.portfolio .portfolio__content .portfolio__img .img__list img{
+    width: 100%;
+}
+/* End Portfolio Section  */
+
+/* Start Skill section  */
+.skill{
+    padding: 100px 0;
+}
+.skill .skill__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.skill .skill__content .content__heading{
+    width: 100%;
+}
+.skill .skill__content .content__heading .heading__description{
+    padding: 20px 0;
+    line-height: 20px;
+}
+.skill .skill__content .skill__bar{
+    width: 100%;
+}
+.skill .skill__content .skill__bar .bar__list .list__item{
+    display: flex;
+    justify-content: space-between;
+}
+.skill .skill__content .skill__bar .bar__list .progress-bar__web{
+    width: 100%;
+    height: 5px;
+    background-color: #f1f1f1;
+    /* border: 2px solid black; */
+    margin: 10px 0 30px;
+    position: relative;
+}
+.skill .skill__content .skill__bar .bar__list .progress-bar__web::before{
+    position: absolute;
+    content: '';
+    width: 95%;
+    height: 5px;
+    background-color: black;
+}
+.skill .skill__content .skill__bar .bar__list .progress-bar__brand{
+    width: 100%;
+    height: 5px;
+    background-color: #f1f1f1;
+    /* border: 2px solid black; */
+    margin: 10px 0 30px;
+    position: relative;
+}
+.skill .skill__content .skill__bar .bar__list .progress-bar__brand::before{
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 5px;
+    background-color: black;
+}
+.skill .skill__content .skill__bar .bar__list .progress-bar__logo{
+    width: 100%;
+    height: 5px;
+    background-color: #f1f1f1;
+    /* border: 2px solid black; */
+    margin: 10px 0;
+    position: relative;
+}
+.skill .skill__content .skill__bar .bar__list .progress-bar__logo::before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 5px;
+    background-color: black;
+}
+/* End Skill section  */
+
+/* Start Client Section  */
+.client{
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+
+}
+.client .client__color{
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 100%;
+}
+
+.client .client__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.client .client__content .content__icon{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.client .client__content .content__description{
+    color: white;
+    font-size: 40px;
+    padding: 40px 0;
+}
+.client .client__content .content__button{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.client .client__content .content__button:hover{
+   background-color: white;
+   color: black;
+   transition: all ease-in-out 1s;
+}
+
+/* End Client Section  */
+
+/* Start Partner Section  */
+.shane-partner{
+    padding: 80px 0;
+}
+.shane-partner .shane-partner__content .content-img{
+    float: left;
+    width: 21%;
+    margin-left: 30px;
+}
+
+.shane-partner .shane-partner__content .content-img img{
+    width: 100%;
+
+}
+
+/* End Partner Section  */
+
+/* Start Testimonial Section  */
+.shane-testimonial{
+    padding: 120px 0;
+    background-color: #f9f9f9;
+}
+.shane-testimonial .shane-testimonial__content{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__heading{
+    width: 100%;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__client{
+    width: 100%;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__heading .heading__sub-title{
+    display: inline-block;
+    font-family: arial;
+    font-size: 16px;
+    background-color: rgb(223, 219, 219);
+    padding: 8px 12px;
+    text-transform: uppercase;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__heading .heading__title{
+    padding: 30px 0;
+    font-family: "Poppins";
+    font-size: 32px;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__client .client__description .texts{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 30px;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__client .client__description .client__img{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    gap: 20px;
+}
+.shane-testimonial .shane-testimonial__content .shane-testimonial__client .client__description .client__img img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+/* End Testimonial Section  */
+
+/* Start News Section  */
+.shane-news{
+    padding: 100px 0;
+}
+.shane-news .shane-news__content .content__heading .heading__sub-title{
+    font-family: "Poppins";
+    font-size: 14px;
+    background-color: rgb(212, 210, 210);
+    padding: 6px 8px;
+}
+.shane-news .shane-news__content .content__heading .heading__title{
+    font-family: "Poppins";
+    font-size: 32px;
+    padding: 30px  0 60px;
+}
+/* .shane-news .shane-news__content .shane-news__item{
+    float: left;
+    flex-direction: row;
+} */
+.shane-news .shane-news__content .shane-news__item .item__list{
+    float: left;
+    width: 31%;
+    margin-right: 20px;    
+}
+/* .shane-news .shane-news__content .shane-news__item .item__list .item__img{
+
+} */
+.shane-news .shane-news__content .shane-news__item .item__list .item__img img{
+    width: 100%;
+}
+.shane-news .shane-news__content .shane-news__item .item__list .item__heading .heading__title{
+    padding: 30px 0 20px;
+}
+.shane-news .shane-news__content .shane-news__item .item__list .item__heading .heading__description{
+   font-size: 12px;
+}
+/* End News Section  */
+/* Start Overlay Section  */
+.shane-overlay{
+    background-image: url(../images/overlay.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.shane-overlay .shane-overlay__color{
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 100%;
+}
+.shane-overlay .shane-overlay__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.shane-overlay .shane-overlay__content .content__heading{
+    font-family: "poppins";
+    font-size: 60px;
+    color: white;
+}
+.shane-overlay .shane-overlay__content .content__button{
+    display: inline-block;
+    margin-top: 30px;
+    font-family: "Poppins";
+    background-color: white;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid white;
+    transition: all ease-in-out 1s;
+}
+.shane-overlay .shane-overlay__content .content__button:hover{
+    /* border: 2px solid white; */
+    color: white;
+    /* background-color: tomato; */
+    background-color: transparent;
+    
+}
+/* End Overlay Section  */
+/* Start Footer Section  */
+.footer{
+    padding: 60px 0;
+    background-color: black;
+}
+.footer .footer__content{
+    text-align: center;
+}
+.footer .footer__content .content__copyright{
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 300px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+/* End Footer Section  */
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+

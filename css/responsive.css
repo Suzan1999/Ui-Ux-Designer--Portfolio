@@ -1,0 +1,497 @@
+/* Stat 1199px down 992px Responsive Section  */
+@media only screen and (max-width: 1199px){
+    .banner{
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+    .banner .banner__content{
+        position: absolute;
+        top: 150px;
+        left: 60px;
+    }
+    .banner .banner__content .heading__title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 45px;
+        text-transform: uppercase;
+    }
+    .banner .banner__content .heading__sub-title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        padding: 5px 0;
+    
+    }
+    .banner .banner__content .heading__list .list__item{
+         padding: 8px 12px 0 0;
+     }
+     .banner .banner__content .heading__list .list__item a{
+        font-size: 16px;
+     }
+     .about{
+        padding: 60px 0;
+    }
+    .about .about__content .about__heading .heading__sub-title{
+        padding: 8px 10px;
+    }
+    .about .about__content .about__heading .heading__title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .about .about__content .about__heading .heading__description{
+        font-family: 'Poppins', sans-serif;
+        line-height: 24px;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .about .about__content .about__heading .heading__button{
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+    .portfolio{
+        padding: 60px 0;
+    }
+    .portfolio .portfolio__content .content__heading .heading__description .heading__title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        padding: 10px 0 20px;
+    }
+    .portfolio .portfolio__content .content__heading .content__menu .menu__list li{
+        display: inline-block;
+        padding:  0 6px ;
+    }
+    .portfolio .portfolio__content .portfolio__img{
+        gap: 20px;
+    }
+    .skill{
+        padding: 60px 0;
+    }
+    .skill .skill__content .content__heading .heading__title{
+        font-size: 20px;
+    }
+    .skill .skill__content .content__heading .heading__description{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .skill .skill__content .skill__bar .bar__list .progress-bar__web{
+        margin: 10px 0 20px;
+    }
+    .skill .skill__content .skill__bar .bar__list .progress-bar__brand{
+        margin: 10px 0 20px;
+    }
+    .client{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        background-position: center;
+    }
+    
+    .client .client__content .content__icon{
+        height: 80px;
+        width: 80px;
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    .client .client__content .content__description{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .client .client__content .content__button{
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .shane-partner{
+        padding: 60px 0;
+    }
+    .shane-testimonial{
+        padding: 60px 0;
+    }
+    .shane-testimonial .shane-testimonial__content{
+        gap: 40px;
+    }
+    .shane-testimonial .shane-testimonial__content .shane-testimonial__heading .heading__title{
+        padding: 20px 0;
+        font-size: 22px;
+    }
+    .shane-testimonial .shane-testimonial__content .shane-testimonial__client .client__description .texts{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .shane-testimonial .shane-testimonial__content .shane-testimonial__client .client__description .client__img{
+        padding-top: 20px;
+    }
+
+    .shane-news{
+        padding: 60px 0;
+    }
+    .shane-news .shane-news__content .content__heading .heading__title{
+        font-size: 28px;
+        padding: 10px  0 20px;
+    }
+    .shane-news .shane-news__content .shane-news__item{
+        gap: 20px;
+    }
+    .shane-news .shane-news__content .shane-news__item .item__list .item__heading .heading__title{
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .shane-news .shane-news__content .shane-news__item .item__list .item__heading .heading__description{
+    font-size: 10px;
+    }
+    .shane-overlay{
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+    .shane-overlay .shane-overlay__content .content__heading{
+        font-size: 40px;
+    }
+    .shane-overlay .shane-overlay__content .content__button{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .footer{
+        padding: 30px 0;
+    }
+}
+/* End 1199px down 992px Responsive Section  */
+
+/* Start 991px down 768px Responsive Section  */
+    @media  only screen and (max-width: 991px) { 
+        .banner{
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }  
+        
+
+    .portfolio .portfolio__content .portfolio__img{
+
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 20px;
+    }
+
+    .shane-partner .shane-partner__content .content-img{
+        float: left;
+        width: 42%;
+        margin-left: 30px;
+    }
+    .shane-news .shane-news__content .shane-news__item .item__list{
+        width: 47%;
+        margin-right: 20px;    
+    }
+    .shane-news .shane-news__content .shane-news__item .item__list:last-child{
+        margin-top: 40px; 
+    }
+}
+/* End 991px down 768px Responsive Section  */
+
+/* Start 767px to 601px Responsive Section  */
+@media only screen and (max-width: 767px){
+    .header .navbar{
+        flex-direction: column;
+    }
+    .header .navbar .navbar__menu .menu__list .list__item{
+        display: block;
+    }
+    .header .navbar .navbar__menu .menu__list .list__item a{
+        background-color: gray;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+        color: white;
+    }
+    .banner{
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .banner .banner__content{
+        position: absolute;
+        top: 80px;
+        left: 60px;
+    }
+    .banner .banner__content .heading__title{
+        font-size: 35px;
+    }
+    .about{
+        padding: 50px 0;
+    }
+    .about .about__content{
+        gap: 30px;
+    }
+    .about .about__content{
+        flex-direction: column;
+    }
+    .about .about__content .about__heading .heading__sub-title{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .about .about__content .about__heading .heading__title{
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    .about .about__content .about__heading .heading__description{
+        line-height: 20px;
+        font-size: 14px;
+        padding: 7px 0;
+    }
+    .about .about__content .about__heading .heading__button{
+        font-size: 16px;
+        padding: 8px 18px;
+        margin-top: 10px;
+    }
+    .portfolio{
+        padding: 50px 0;
+
+    }
+    .portfolio .portfolio__content .portfolio__img{
+
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto auto auto;
+ 
+    }
+    .portfolio .portfolio__content .content__heading .heading__description .heading__title{
+        font-size: 24px;
+        padding: 10px 0 20px;
+    }
+    .portfolio .portfolio__content .content__heading{
+        gap: 2px;
+    }
+    .portfolio .portfolio__content .content__heading .content__menu .menu__list li{
+        padding:  0 2px ;
+    }
+    .portfolio .portfolio__content .portfolio__img{
+        gap: 10px;
+    }
+    .skill{
+        padding: 50px 0;
+    }
+    .skill .skill__content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .client{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+    .client .client__content .content__description{
+
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .shane-partner .shane-partner__content .content-img{
+        float: left;
+        width: 84%;
+        margin-left: 30px;
+    }
+    .shane-testimonial{
+    padding: 50px 0;
+    }
+    .shane-testimonial .shane-testimonial__content{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .shane-news{
+        padding: 50px 0;
+    }
+
+    .shane-news .shane-news__content .shane-news__item .item__list{
+        width: 100%;
+        margin-right: 20px;    
+    }
+    .shane-overlay{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+    .shane-overlay .shane-overlay__content .content__heading{
+        font-size: 30px;
+    }
+    .shane-overlay .shane-overlay__content .content__button{
+        margin-top: 20px;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+}
+/* End 767px to 601px Responsive Section  */
+
+/* Start max-width 600px Responsive Section  */
+@media only screen and (max-width: 600px){
+    .header .navbar{
+        flex-direction: column;
+    }
+    .header .navbar .navbar__menu .menu__list .list__item{
+        display: block;
+    }
+    .header .navbar .navbar__menu .menu__list .list__item a{
+        background-color: gray;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+        color: white;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner .banner__content{
+        position: absolute;
+        top: 60px;
+        left: 40px;
+    }
+    .banner .banner__content .heading__title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .banner .banner__content .heading__sub-title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        padding: 5px 0;
+    
+    }
+    .banner .banner__content .heading__list .list__item{
+        display: inline-block;
+         padding: 5px 10px 0 0;
+     }
+     .banner .banner__content .heading__list .list__item a{
+        font-size: 12px;
+     }
+     .about {
+        padding: 40px 0;
+     }
+     .about .about__content{
+        flex-direction: column;
+    }
+    .about .about__content .about__heading .heading__sub-title{
+
+        background-color: rgb(197, 197, 197);
+        padding: 6px 8px;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .about .about__content .about__heading .heading__title{
+        font-size: 20px;
+    }
+    .about .about__content .about__heading .heading__description{
+        line-height: 30px;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .about .about__content .about__heading .heading__button{
+        font-size: 14px;
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(14, 13, 13);
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    .portfolio{
+        padding: 40px 0;
+
+    }
+    .portfolio .portfolio__content .content__heading{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .skill{
+        padding: 20px 0;
+    }
+    .skill .skill__content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .client{
+        width: 100%;
+        height: 300px;
+
+    }
+    .client .client__content .content__icon{
+
+        border-radius: 100%;
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+        padding-top: 13px;
+    }
+    .client .client__content .content__description{
+        color: white;
+        font-size: 16px;
+        padding: 20px 0;
+    }
+    .client .client__content .content__button{
+        border: 1px solid white;
+        padding: 10px 20px;
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .shane-partner{
+        padding: 10px 0 15px;
+    }
+    .shane-partner .shane-partner__content .content-img{
+        float: left;
+        width: 84%;
+        margin-left: 30px;
+        text-align: center;
+    }
+    
+    .shane-partner .shane-partner__content .content-img img{
+        width: 50%;
+
+    }
+    .shane-testimonial .shane-testimonial__content{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .shane-news .shane-news__content .shane-news__item{
+        flex-direction: column;
+    }
+    .shane-news .shane-news__content .shane-news__item .item__list .item__img img{
+        width: 100%;
+        /* height: 150px; */
+    }
+    .shane-overlay{
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+    }
+    .shane-overlay .shane-overlay__content .content__heading{
+        font-size: 18px;
+    }
+    .shane-overlay .shane-overlay__content .content__button{
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .footer .footer__content .content__copyright{
+        font-size: 10px;
+    }
+}
+/* End max-width 600px Responsive Section  */
+
+
